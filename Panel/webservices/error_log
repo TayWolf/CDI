@@ -1,0 +1,44 @@
+[15-Nov-2018 13:56:55 America/Mexico_City] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/cointic/public_html/CDI/Panel/webservices/Cotizaciones.php on line 2
+[15-Nov-2018 13:56:55 America/Mexico_City] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/cointic/public_html/CDI/Panel/webservices/Cotizaciones.php on line 2
+[15-Nov-2018 13:56:55 America/Mexico_City] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cointic/public_html/CDI/Panel/webservices/Cotizaciones.php on line 2
+[15-Nov-2018 16:59:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 97
+[15-Nov-2018 16:59:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 121
+[15-Nov-2018 17:26:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 97
+[15-Nov-2018 17:26:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 121
+[15-Nov-2018 17:27:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 97
+[15-Nov-2018 17:27:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 121
+[15-Nov-2018 17:35:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 98
+[15-Nov-2018 17:35:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 122
+[15-Nov-2018 17:36:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 98
+[15-Nov-2018 17:36:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 122
+[15-Nov-2018 17:39:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 98
+[15-Nov-2018 17:39:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 122
+[16-Nov-2018 09:34:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 99
+[16-Nov-2018 09:34:33 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 123
+[16-Nov-2018 09:40:15 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 99
+[16-Nov-2018 09:40:15 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 123
+[16-Nov-2018 09:46:46 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'cointic_dbIntal'@'localhost' to database 'cointic_CDI'' in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php:18
+Stack trace:
+#0 /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php(18): PDO->__construct('mysql:host=loca...', 'cointic_dbIntal', '+ZsntqoVuVh0')
+#1 {main}
+  thrown in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 18
+[16-Nov-2018 09:46:53 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'cointic_dbIntal'@'localhost' to database 'cointic_CDI'' in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php:18
+Stack trace:
+#0 /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php(18): PDO->__construct('mysql:host=loca...', 'cointic_dbIntal', '+ZsntqoVuVh0')
+#1 {main}
+  thrown in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 18
+[16-Nov-2018 09:48:30 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'cointic_dbIntal'@'localhost' to database 'cointic_CDI'' in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php:18
+Stack trace:
+#0 /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php(18): PDO->__construct('mysql:host=loca...', 'cointic_dbIntal', '+ZsntqoVuVh0')
+#1 {main}
+  thrown in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 18
+[16-Nov-2018 09:49:24 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'cointic_morelos'@'localhost' (using password: YES)' in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php:18
+Stack trace:
+#0 /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php(18): PDO->__construct('mysql:host=loca...', 'cointic_morelos', '+ZsntqoVuVh0')
+#1 {main}
+  thrown in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 18
+[16-Nov-2018 09:51:31 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'cointic_morelos'@'localhost' (using password: YES)' in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php:18
+Stack trace:
+#0 /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php(18): PDO->__construct('mysql:host=loca...', 'cointic_morelos', '+ZsntqoVuVh0')
+#1 {main}
+  thrown in /home/cointic/public_html/CDI/Panel/webservices/RegistroCliente.php on line 18
